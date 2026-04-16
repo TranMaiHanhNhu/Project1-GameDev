@@ -1,0 +1,523 @@
+fileFormatVersion: 2
+guid: 1aa08669641b61740804feda86afc701
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8948728166497563328
+    second: white_rook_0
+  - first:
+      213: -487170193432062021
+    second: white_rook_1
+  - first:
+      213: -7560372377123053943
+    second: white_rook_2
+  - first:
+      213: 7940334541334918723
+    second: white_rook_3
+  - first:
+      213: 1103015177779907262
+    second: white_rook_4
+  - first:
+      213: -1639841778451738756
+    second: white_rook_5
+  - first:
+      213: -1083008083172802402
+    second: white_rook_6
+  - first:
+      213: -5317838491075616812
+    second: white_rook_7
+  - first:
+      213: 7920762300914679617
+    second: white_rook_8
+  - first:
+      213: -938721537515734894
+    second: white_rook_9
+  - first:
+      213: -6460504473074811752
+    second: white_rook_10
+  - first:
+      213: 5879819378637852965
+    second: white_rook_11
+  - first:
+      213: -3602417609594132791
+    second: white_rook_12
+  - first:
+      213: -9162967122172771162
+    second: white_rook_13
+  - first:
+      213: -8393026030600489999
+    second: white_rook_14
+  - first:
+      213: -5789778031956357830
+    second: white_rook_15
+  - first:
+      213: -6584085145161029000
+    second: white_rook_16
+  - first:
+      213: 100290158236794179
+    second: white_rook_17
+  - first:
+      213: 1480497651070985232
+    second: white_rook_18
+  - first:
+      213: 4342704290693447043
+    second: white_rook_19
+  - first:
+      213: 1919712358143784772
+    second: white_rook_20
+  - first:
+      213: -8053236983106200258
+    second: white_rook_21
+  - first:
+      213: 8149837498220108004
+    second: white_rook_22
+  - first:
+      213: 3950462138106149452
+    second: white_rook_23
+  - first:
+      213: -1742768415120127646
+    second: white_rook_24
+  - first:
+      213: -8462108078763480928
+    second: white_rook_25
+  - first:
+      213: -1227002520984818622
+    second: white_rook_26
+  - first:
+      213: -2269257415616910711
+    second: white_rook_27
+  - first:
+      213: 4082073258517142891
+    second: white_rook_28
+  - first:
+      213: -3441739719017232044
+    second: white_rook_29
+  - first:
+      213: -8294212571166834277
+    second: white_rook_30
+  - first:
+      213: 7176323984476862667
+    second: white_rook_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Broken pieces_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 109
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37858115563d7bc499d54ce7e9c9fcc6
+      internalID: -713909015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Broken pieces_1
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 109
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98eebf40e5b42ec4e8552fca2c0b5be8
+      internalID: -511175185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Broken pieces_2
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 109
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e6450cca9a79e94295b6243e2543062
+      internalID: 1655468430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Broken pieces_3
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 109
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46ae29dde88a46143b111ce596b6e371
+      internalID: 1862436612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Broken pieces_5
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 84
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f795f7ab35d8c340a1b86243dc8f021
+      internalID: 241002110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Broken pieces_4
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 84
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1930dd90316d3504aa69f11071dabb1c
+      internalID: 1243068987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Broken pieces_6
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 83
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9672bb3507b2dc4eb92253c403e1804
+      internalID: 1256224619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Broken pieces_7
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 83
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e132489cb6416494bbf4b28dcb12763d
+      internalID: -90479306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Broken pieces_8
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 83
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68a3c0b7b4cc38448a174f538dbbf2bf
+      internalID: 2082573453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Broken pieces_9
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 83
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1b4c268a45b6ae4b8298779656989e5
+      internalID: -351114761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Broken pieces_10
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 109
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 852a536ce20c92c47a46d55f532221be
+      internalID: -1529224432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Broken pieces_11
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 109
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fee1dc1a8a77a0a4daa99f6b521179e6
+      internalID: 1023991839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 068edcb2597a4f94a84e48ae5d35afd8
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":16.0,"y":16.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Broken pieces_0: -713909015
+      Broken pieces_1: -511175185
+      Broken pieces_10: -1529224432
+      Broken pieces_11: 1023991839
+      Broken pieces_2: 1655468430
+      Broken pieces_3: 1862436612
+      Broken pieces_4: 1243068987
+      Broken pieces_5: 241002110
+      Broken pieces_6: 1256224619
+      Broken pieces_7: -90479306
+      Broken pieces_8: 2082573453
+      Broken pieces_9: -351114761
+      white_rook_0: -8948728166497563328
+      white_rook_1: -487170193432062021
+      white_rook_10: -6460504473074811752
+      white_rook_11: 5879819378637852965
+      white_rook_12: -3602417609594132791
+      white_rook_13: -9162967122172771162
+      white_rook_14: -8393026030600489999
+      white_rook_15: -5789778031956357830
+      white_rook_16: -6584085145161029000
+      white_rook_17: 100290158236794179
+      white_rook_18: 1480497651070985232
+      white_rook_19: 4342704290693447043
+      white_rook_2: -7560372377123053943
+      white_rook_20: 1919712358143784772
+      white_rook_21: -8053236983106200258
+      white_rook_22: 8149837498220108004
+      white_rook_23: 3950462138106149452
+      white_rook_24: -1742768415120127646
+      white_rook_25: -8462108078763480928
+      white_rook_26: -1227002520984818622
+      white_rook_27: -2269257415616910711
+      white_rook_28: 4082073258517142891
+      white_rook_29: -3441739719017232044
+      white_rook_3: 7940334541334918723
+      white_rook_30: -8294212571166834277
+      white_rook_31: 7176323984476862667
+      white_rook_4: 1103015177779907262
+      white_rook_5: -1639841778451738756
+      white_rook_6: -1083008083172802402
+      white_rook_7: -5317838491075616812
+      white_rook_8: 7920762300914679617
+      white_rook_9: -938721537515734894
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
