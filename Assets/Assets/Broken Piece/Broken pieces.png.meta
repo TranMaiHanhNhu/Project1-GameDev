@@ -1,0 +1,509 @@
+fileFormatVersion: 2
+guid: a68e62db9fab5824caacea51aae7813c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 442388765670995398
+    second: Broken pieces_0
+  - first:
+      213: 6209929919957728883
+    second: Broken pieces_1
+  - first:
+      213: -3783118502985471098
+    second: Broken pieces_2
+  - first:
+      213: 4999703514927074637
+    second: Broken pieces_3
+  - first:
+      213: -201141519853076512
+    second: Broken pieces_4
+  - first:
+      213: -8727017325914045284
+    second: Broken pieces_5
+  - first:
+      213: -5063872010212430685
+    second: Broken pieces_6
+  - first:
+      213: 2953001837898838158
+    second: Broken pieces_7
+  - first:
+      213: -3505731126724621472
+    second: Broken pieces_8
+  - first:
+      213: -8281981342544896361
+    second: Broken pieces_9
+  - first:
+      213: 8371858666287373103
+    second: Broken pieces_10
+  - first:
+      213: 1038428579355263082
+    second: Broken pieces_11
+  - first:
+      213: 2685913971621007371
+    second: Broken pieces_12
+  - first:
+      213: -6716003004159397275
+    second: Broken pieces_13
+  - first:
+      213: -3636354296896184357
+    second: Broken pieces_14
+  - first:
+      213: 3364798927547642025
+    second: Broken pieces_15
+  - first:
+      213: 6793266116949955086
+    second: Broken pieces_16
+  - first:
+      213: 2774497802641405086
+    second: Broken pieces_17
+  - first:
+      213: -3448491192856106355
+    second: Broken pieces_18
+  - first:
+      213: 7086870412751491374
+    second: Broken pieces_19
+  - first:
+      213: -5261538125263859103
+    second: Broken pieces_20
+  - first:
+      213: 6628793805775737775
+    second: Broken pieces_21
+  - first:
+      213: -3122568872901862300
+    second: Broken pieces_22
+  - first:
+      213: -3564187787543033288
+    second: Broken pieces_23
+  - first:
+      213: 1634508684308799727
+    second: Broken pieces_24
+  - first:
+      213: 7749498134931261565
+    second: Broken pieces_25
+  - first:
+      213: -2221813033182225666
+    second: Broken pieces_26
+  - first:
+      213: -3591751352722278510
+    second: Broken pieces_27
+  - first:
+      213: 7220869919376911958
+    second: Broken pieces_28
+  - first:
+      213: 6860370087411765800
+    second: Broken pieces_29
+  - first:
+      213: 4257895977121484635
+    second: Broken pieces_30
+  - first:
+      213: 6748438139641378935
+    second: Broken pieces_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Broken pieces_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 108
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c5717e0d3ea32600800000000000000
+      internalID: 442388765670995398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Broken pieces_1
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 108
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37e762f4c5a1e2650800000000000000
+      internalID: 6209929919957728883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Broken pieces_2
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 108
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68be75ee3c9af7bc0800000000000000
+      internalID: -3783118502985471098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Broken pieces_5
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 108
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c94c634daf763e680800000000000000
+      internalID: -8727017325914045284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Broken pieces_9
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 108
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79ed23949dd701d80800000000000000
+      internalID: -8281981342544896361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Broken pieces_12
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 108
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b009abfc688464520800000000000000
+      internalID: 2685913971621007371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Broken pieces_15
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 82
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a0b7111cca22be20800000000000000
+      internalID: 3364798927547642025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Broken pieces_19
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 82
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e215741b71f995260800000000000000
+      internalID: 7086870412751491374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Broken pieces_23
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 82
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83a46b25716798ec0800000000000000
+      internalID: -3564187787543033288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Broken pieces_25
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 82
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d784120ce7fbb8b60800000000000000
+      internalID: 7749498134931261565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Broken pieces_27
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 82
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 297b573bc29872ec0800000000000000
+      internalID: -3591751352722278510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Broken pieces_30
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 82
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5f04e6f4d5171b30800000000000000
+      internalID: 4257895977121484635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: ce78de729bb51a441aa50a81cb4f6ba8
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Broken pieces_0: 442388765670995398
+      Broken pieces_1: 6209929919957728883
+      Broken pieces_10: 8371858666287373103
+      Broken pieces_11: 1038428579355263082
+      Broken pieces_12: 2685913971621007371
+      Broken pieces_13: -6716003004159397275
+      Broken pieces_14: -3636354296896184357
+      Broken pieces_15: 3364798927547642025
+      Broken pieces_16: 6793266116949955086
+      Broken pieces_17: 2774497802641405086
+      Broken pieces_18: -3448491192856106355
+      Broken pieces_19: 7086870412751491374
+      Broken pieces_2: -3783118502985471098
+      Broken pieces_20: -5261538125263859103
+      Broken pieces_21: 6628793805775737775
+      Broken pieces_22: -3122568872901862300
+      Broken pieces_23: -3564187787543033288
+      Broken pieces_24: 1634508684308799727
+      Broken pieces_25: 7749498134931261565
+      Broken pieces_26: -2221813033182225666
+      Broken pieces_27: -3591751352722278510
+      Broken pieces_28: 7220869919376911958
+      Broken pieces_29: 6860370087411765800
+      Broken pieces_3: 4999703514927074637
+      Broken pieces_30: 4257895977121484635
+      Broken pieces_31: 6748438139641378935
+      Broken pieces_4: -201141519853076512
+      Broken pieces_5: -8727017325914045284
+      Broken pieces_6: -5063872010212430685
+      Broken pieces_7: 2953001837898838158
+      Broken pieces_8: -3505731126724621472
+      Broken pieces_9: -8281981342544896361
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
