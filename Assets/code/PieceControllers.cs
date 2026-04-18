@@ -10,7 +10,7 @@ public abstract class PieceController : MonoBehaviour
         transform.position = GridManager.Instance.GridToWorld(gridPos);
         if(isUnlocked)
         {
-            RevealAllDirections();
+            RevealTileAndUnlock(gridPos);
         }
     }
     public abstract bool IsValidMove(Vector2Int from, Vector2Int to);

@@ -14,11 +14,15 @@ public class InputHandler : MonoBehaviour
             Vector2 mouseScreen = Mouse.current.position.ReadValue();
             Vector3 mouseWorld = Camera.main.ScreenToWorldPoint(mouseScreen);
             mouseWorld.z = 0;
-
+            Vector2Int target = GridManager.Instance.WorldToGrid(mouseWorld);
+            var fog = FogManager.Instance.GetFog(target);
+            if (fog != null && !fog.revealed) return;
             // 🔥 1. Check click vào quân
             Collider2D hit = Physics2D.OverlapPoint(mouseWorld);
+
             if (hit != null)
             {
+                
                 PieceController piece = hit.GetComponent<PieceController>();
 
                 if (piece != null)
@@ -41,15 +45,14 @@ public class InputHandler : MonoBehaviour
             // 🔥 2. Nếu chưa chọn quân → không làm gì
             if (selectedPiece == null) return;
 
-            Vector2Int target = GridManager.Instance.WorldToGrid(mouseWorld);
+            
             Vector2Int from = selectedPiece.gridPos;
 
             // ❌ ngoài map
             if (!GridManager.Instance.IsInside(target)) return;
 
             // ❌ ô chưa được reveal (fog)
-            var fog = FogManager.Instance.GetFog(target);
-            if (fog != null && !fog.revealed) return;
+           
 
             if(!selectedPiece.IsValidMove(from, target)) return;
             if(!selectedPiece.IsPathClear(from, target)) return;
