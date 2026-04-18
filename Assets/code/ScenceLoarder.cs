@@ -12,16 +12,19 @@ public class SceneLoader : MonoBehaviour
     // 👉 Load màn cụ thể (gọi từ button)
     public void LoadLevel1()
     {
+        GameManager.Instance.ResetMoveCount();
         SceneManager.LoadScene("Level1");
     }
 
     public void LoadLevel2()
     {
+        GameManager.Instance.ResetMoveCount();
         SceneManager.LoadScene("Level2");
     }
 
     public void LoadLevel3()
     {
+        GameManager.Instance.ResetMoveCount();
         SceneManager.LoadScene("Level3");
     }
 

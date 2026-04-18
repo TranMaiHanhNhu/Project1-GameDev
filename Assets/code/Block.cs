@@ -11,12 +11,12 @@ public class Block : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
-    {
-        if(!GridManager.Instance.IsInside(gridPos))
-        {
-            Debug.LogError("Block position is out of bounds: " + gridPos);
-            Destroy(this.gameObject);
-        }
-    }
+    // void Update()
+    // {
+    //     if(!GridManager.Instance.IsInside(gridPos))
+    //     {
+    //         Debug.LogError("Block position is out of bounds: " + gridPos);
+    //         Destroy(this.gameObject);
+    //     }
+    // }
 }

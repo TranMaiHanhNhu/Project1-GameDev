@@ -15,6 +15,9 @@ public class InputHandler : MonoBehaviour
             Vector3 mouseWorld = Camera.main.ScreenToWorldPoint(mouseScreen);
             mouseWorld.z = 0;
             Vector2Int target = GridManager.Instance.WorldToGrid(mouseWorld);
+            
+            // ❌ ngoài map
+            if (!GridManager.Instance.IsInside(target)) return;
             var fog = FogManager.Instance.GetFog(target);
             if (fog != null && !fog.revealed) return;
             // 🔥 1. Check click vào quân
@@ -48,8 +51,6 @@ public class InputHandler : MonoBehaviour
             
             Vector2Int from = selectedPiece.gridPos;
 
-            // ❌ ngoài map
-            if (!GridManager.Instance.IsInside(target)) return;
 
             // ❌ ô chưa được reveal (fog)
            
