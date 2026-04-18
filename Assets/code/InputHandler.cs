@@ -1,9 +1,11 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public class InputHandler : MonoBehaviour
 {
-    public PieceController selectedPiece;
+    PieceController selectedPiece;
+    public King king;
 
     void Update()
     {
@@ -18,9 +20,19 @@ public class InputHandler : MonoBehaviour
             if (hit != null)
             {
                 PieceController piece = hit.GetComponent<PieceController>();
+
                 if (piece != null)
                 {
+                    if (!piece.isUnlocked)
+                    {
+                        Debug.Log("Quân này chưa mở!");
+                        return;
+                    }
+
                     selectedPiece = piece;
+                    
+                    FogManager.Instance.ResetFog();
+                    selectedPiece.RevealAllDirections();
                     Debug.Log("Selected piece");
                     return;
                 }
@@ -46,6 +58,13 @@ public class InputHandler : MonoBehaviour
             selectedPiece.gridPos = target;
             selectedPiece.transform.position =
                 GridManager.Instance.GridToWorld(target);
+
+            GameManager.Instance.moveCount+=1;
+            
+            if (selectedPiece.gridPos==king.pos)
+            {
+                SceneManager.LoadScene("WinScene");
+            }
 
             // 🔥 RESET + REVEAL
             FogManager.Instance.ResetFog();

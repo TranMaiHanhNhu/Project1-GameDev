@@ -3,11 +3,15 @@ using UnityEngine;
 public abstract class PieceController : MonoBehaviour
 {
     public Vector2Int gridPos;
+    public bool isUnlocked = false;
 
     protected virtual void Start()
     {
         transform.position = GridManager.Instance.GridToWorld(gridPos);
-        RevealAllDirections();
+        if(isUnlocked)
+        {
+            RevealAllDirections();
+        }
     }
     public abstract bool IsValidMove(Vector2Int from, Vector2Int to);
 
@@ -23,9 +27,7 @@ public abstract class PieceController : MonoBehaviour
 
         if (dir == Vector2Int.zero)
         {
-            var fog = FogManager.Instance.GetFog(current);
-            if (fog != null)
-                fog.Reveal();
+            RevealTileAndUnlock(current);
             return;
         }
 
@@ -36,12 +38,32 @@ public abstract class PieceController : MonoBehaviour
             if (!GridManager.Instance.IsInside(current))
                 break;
 
-            var fog = FogManager.Instance.GetFog(current);
-            if (fog != null)
-                fog.Reveal();
+            RevealTileAndUnlock(current);
 
             if (GridManager.Instance.IsBlocked(current))
                 break;
+        }
+    }
+    void RevealTileAndUnlock(Vector2Int pos)
+    {
+        var fog = FogManager.Instance.GetFog(pos);
+        if (fog != null)
+            fog.Reveal();
+
+        // 🔥 check có quân không → unlock
+        Collider2D hit = Physics2D.OverlapPoint(
+            GridManager.Instance.GridToWorld(pos)
+        );
+
+        if (hit != null)
+        {
+            PieceController piece = hit.GetComponent<PieceController>();
+
+            if (piece != null)
+            {
+                piece.isUnlocked = true;
+                Debug.Log("Unlock: " + piece.name);
+            }
         }
     }
 }
