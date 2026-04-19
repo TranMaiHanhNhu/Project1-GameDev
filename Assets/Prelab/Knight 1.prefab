@@ -80,7 +80,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: -1580487849
-  m_SortingLayer: 2
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: 7292352570814449456, guid: 76e0fcf4e5fa9234094f3f68af5bf33d, type: 3}
@@ -127,7 +127,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.017983675, y: 0.0045217425}
+  m_Offset: {x: 0.020762525, y: 0.007300593}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -137,7 +137,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.35258913, y: 0.47847506}
+  m_Size: {x: 0.21364541, y: 0.28395385}
   m_EdgeRadius: 0
 --- !u!114 &2422218609272539461
 MonoBehaviour:
@@ -151,4 +151,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b10834670969ae3478dda05c11abd12b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Knight
-  gridPos: {x: 2, y: 2}
+  gridPos: {x: 7, y: 2}
+  isUnlocked: 0

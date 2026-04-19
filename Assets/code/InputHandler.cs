@@ -4,7 +4,7 @@ using UnityEngine.SceneManagement;
 
 public class InputHandler : MonoBehaviour
 {
-    PieceController selectedPiece;
+    public PieceController selectedPiece;
     public King king;
 
     void Update()
@@ -30,12 +30,13 @@ public class InputHandler : MonoBehaviour
 
                 if (piece != null)
                 {
+                    piece.isUnlocked = true;
                     if (!piece.isUnlocked)
                     {
                         Debug.Log("Quân này chưa mở!");
                         return;
                     }
-
+                    selectedPiece.isUnlocked = false;
                     selectedPiece = piece;
                     
                     FogManager.Instance.ResetFog();
